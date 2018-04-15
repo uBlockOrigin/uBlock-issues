@@ -4,4 +4,4 @@ This is the community-maintained [issue tracker for uBlock Origin](https://githu
 
 Issues will be first validated here.
 
-Validated issues will be copied over to the [official issue tracker](https://github.com/gorhill/uBlock/issues).
+Validated issues will be sent to the [official issue tracker](https://github.com/gorhill/uBlock/issues).
