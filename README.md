@@ -7,3 +7,5 @@ You can help development of uBlock Origin by using the development build in orde
 Developement builds:
 - Chromium-based browsers: <https://chrome.google.com/webstore/detail/ublock-origin-development/cgbcahbpdhpcegmbfconppldiemgcoii>
 - Firefox: click the most recent `uBlock0.firefox.signed.xpi` file from <https://github.com/gorhill/uBlock/releases>
+
+If you install one a development build, it will be automatically updated with a more recent development build version when a new one is published.
