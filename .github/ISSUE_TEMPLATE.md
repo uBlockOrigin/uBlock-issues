@@ -11,7 +11,7 @@
         - See what the logger <https://github.com/gorhill/uBlock/wiki/The-logger> reports when you reproduce the issue, this will help you determine whether this is a filter issue.
     -->
 - [ ] This is not a support issue or a question
-    - Support issues and questions are handled at [/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/)
+    - Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit.com/r/uBlockOrigin/)
     <!-- Such issue will be closed as invalid -->
 - [ ] I performed a cursory search of the issue tracker to avoid opening a duplicate issue
     - Your issue may already be reported.
