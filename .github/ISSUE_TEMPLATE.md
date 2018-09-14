@@ -4,6 +4,7 @@
 
 <!-- Check the appropriate boxes after you submit your issue -->
 <!-- Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data + analysis supporting the claim -->
+<!-- Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed -->
 
 - [ ] I verified that this is not a filter issue
     - Filter issues MUST be reported at [filter issue tracker](https://github.com/uBlockOrigin/uAssets/issues)
