@@ -13,3 +13,7 @@ Development builds:
 - Firefox: click the most recent `uBlock0.firefox.signed.xpi` file from <https://github.com/gorhill/uBlock/releases>
 
 If you install a development build once, it will be automatically updated with a more recent development build version when a new one is published.
+
+# Chromium/Chrome 49 users
+
+Minimum version for Chromium/Chrome was bumped to v51, hence no longer compatible for this browser version. Users who would still like to install uBO can download v1.16.18(last working version) and install it by unpacking and loading it via Developer Mode.
