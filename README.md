@@ -1,6 +1,8 @@
 # uBlock-issues
 
-This is the official community-maintained [issue tracker for uBlock Origin](https://github.com/uBlockOrigin/uBlock-issues/issues). **Do not post any filter list issues or issues where website's functionality is broken.** We have [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues) for that, post there instead. **Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data + analysis supporting the claim.**
+This is the official community-maintained [issue tracker for uBlock Origin](https://github.com/uBlockOrigin/uBlock-issues/issues). **Do not post any filter list issues or issues where website's functionality is broken.** We have [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues) for that, post there instead. 
+
+**Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data + analysis supporting the claim.**
 
 **Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed.**
 
