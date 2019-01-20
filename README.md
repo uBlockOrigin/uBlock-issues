@@ -11,9 +11,9 @@ Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit
 You can help the development of uBlock Origin by using the development build, in order to report new issues or regression bugs before stable releases of uBlock Origin are published.
 
 Development builds:
-- Chromium-based browsers: <https://chrome.google.com/webstore/detail/ublock-origin-development/cgbcahbpdhpcegmbfconppldiemgcoii>
-- Firefox: click the most recent `uBlock0_[version].firefox.signed.xpi` file from <https://github.com/gorhill/uBlock/releases>
-- Thunderbird: download the `uBlock0_[version].thunderbird.xpi` package from <https://github.com/gorhill/uBlock/releases>, then drag-n-drop it into Thunderbird's Add-ons Manager pane (Thunderbird 65+ required)
+- **Chromium**: install from <https://chrome.google.com/webstore/detail/ublock-origin-development/cgbcahbpdhpcegmbfconppldiemgcoii>
+- **Firefox**: click the most recent `uBlock0_[version].firefox.signed.xpi` file from <https://github.com/gorhill/uBlock/releases>
+- **Thunderbird**: download the `uBlock0_[version].thunderbird.xpi` package from <https://github.com/gorhill/uBlock/releases>, then drag-n-drop it into Thunderbird's Add-ons Manager pane (Thunderbird 65+ required)
 
 If you install a development build once, it will be automatically updated with a more recent development build version when a new one is published.
 
