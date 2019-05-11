@@ -6,7 +6,7 @@ This is the official community-maintained [issue tracker for uBlock Origin](http
 
 **Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed.**
 
-Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit.com/r/uBlockOrigin/).
+**Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit.com/r/uBlockOrigin/).**
 
 You can help the development of uBlock Origin by using the development build, in order to report new issues or regression bugs before stable releases of uBlock Origin are published.
 
