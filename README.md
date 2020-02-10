@@ -4,6 +4,8 @@ This is the official community-maintained [issue tracker for uBlock Origin](http
 
 **Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data from [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/devtools/docs/profiles) + fully substantiated analysis supporting the claim.**
 
+**Issues specific to uBlock-legacy variant should be filed at https://github.com/gorhill/uBlock-for-firefox-legacy/issues**
+
 **Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed.**
 
 **Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit.com/r/uBlockOrigin/).**
