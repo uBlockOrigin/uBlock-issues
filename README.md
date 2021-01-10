@@ -23,4 +23,4 @@ If you install a development build once, it will be automatically updated with a
 
 # Chromium/Chrome 49 users
 
-Minimum version for Chromium/Chrome was bumped to v51, hence no longer compatible for this browser version. Users who would still like to install uBO can download v1.16.18 (last working version) from the [releases](https://github.com/gorhill/uBlock/releases/tag/1.16.18) section of uBO repository and install it by unpacking and loading it via Developer Mode.
+Minimum version for Chromium/Chrome was bumped to v55, hence no longer compatible for this browser version. Users who would still like to install uBO can download v1.16.18 (last working version) from the [releases](https://github.com/gorhill/uBlock/releases/tag/1.16.18) section of uBO repository and install it by unpacking and loading it via Developer Mode.
