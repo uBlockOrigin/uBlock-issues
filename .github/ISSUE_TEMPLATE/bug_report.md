@@ -1,38 +1,61 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Report a bug in uBlock Origin
 title: ''
 labels: ''
 assignees: ''
 
 ---
+<!-- Do NOT delete this template or any part of it when submitting your issue -->
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+### Prerequisites
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+<!-- Check the appropriate boxes after you submit your issue -->
+<!-- Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data + analysis supporting the claim -->
+<!-- Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed -->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+- [ ] I verified that this is not a filter issue
+    - Filter issues MUST be reported at [filter issue tracker](https://github.com/uBlockOrigin/uAssets/issues)
+    <!--
+        - If disabling uBO <https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button> makes the issue go away, then in all likelihood this is a filter issue.
+        - See what the logger <https://github.com/gorhill/uBlock/wiki/The-logger> reports when you reproduce the issue, this will help you determine whether this is a filter issue.
+    -->
+- [ ] This is not a support issue or a question
+    - Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit.com/r/uBlockOrigin/)
+    <!-- Such issue will be closed as invalid -->
+- [ ] I performed a cursory search of the issue tracker to avoid opening a duplicate issue
+    - Your issue may already be reported.
+- I tried to reproduce the issue when...
+    - [ ] uBlock Origin is the only extension
+    - [ ] uBlock Origin with default lists/settings
+    - [ ] using a new, unmodified browser profile
+- [ ] I am running the latest version of uBlock Origin
+- [ ] I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+### Description
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+[Description of the bug or feature]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+### A specific URL where the issue occurs
 
-**Additional context**
-Add any other context about the problem here.
+[A specific URL is MANDATORY for issue happening on a web page, even if it happens "everywhere"]
+
+### Steps to Reproduce
+
+1. [First Step]
+2. [Second Step]
+3. [and so on...]
+
+### Expected behavior:
+
+[What you expected to happen]
+
+### Actual behavior:
+
+[What actually happened]
+
+### Your environment
+
+* uBlock Origin version:
+* Browser Name and version:
+* Operating System and version:
