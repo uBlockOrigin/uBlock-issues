@@ -1,3 +1,11 @@
+---
+name: Bug report
+about: Report a bug in uBlock Origin
+title: ''
+labels: ''
+assignees: ''
+
+---
 <!-- Do NOT delete this template or any part of it when submitting your issue -->
 
 ### Prerequisites
