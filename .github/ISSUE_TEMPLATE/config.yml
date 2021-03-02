@@ -8,7 +8,7 @@ contact_links:
     about: Please report any issues with specific websites to uAssets issue tracker
   - name: New filter list
     url: https://github.com/uBlockOrigin/uBlock-issues/blob/master/README.md#ublock-issues
-    about: Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed.
+    about: Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed
   - name: Issues with Firefox 56 or older
     url: https://github.com/gorhill/uBlock-for-firefox-legacy/issues
     about: If you are using uBlock Origin for Firefox legacy, please write the issues to its issue tracker
