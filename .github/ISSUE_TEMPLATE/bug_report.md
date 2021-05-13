@@ -10,7 +10,7 @@ assignees: ''
 
 ### Prerequisites
 
-<!-- Check the appropriate boxes after you submit your issue -->
+<!-- To rule out invalid issues, confirm and check each one of the checkboxes. Not doing so may result in the issue being closed as invalid with no further comment -->
 <!-- Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data + analysis supporting the claim -->
 <!-- Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed -->
 
