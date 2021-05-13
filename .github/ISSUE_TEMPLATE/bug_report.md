@@ -31,7 +31,6 @@ assignees: ''
     - [ ] uBO is the only extension
     - [ ] uBO with default lists/settings
     - [ ] using a new, unmodified browser profile
-    - [ ] using a new, unmodified browser profile
 - [ ] I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
 
 ### Description
