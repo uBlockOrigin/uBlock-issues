@@ -24,12 +24,14 @@ assignees: ''
     - Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit.com/r/uBlockOrigin/)
     <!-- Such issue will be closed as invalid -->
 - [ ] I performed a cursory search of the issue tracker to avoid opening a duplicate issue
-    - Your issue may already be reported.
+    - Your issue may already be reported
+- [ ] The issue is not present after wholly disabling uBlock Origin ("uBO") in the browser
+    - If the issue is still present after wholly disabling uBO in the browser, then the issue is unrelated to uBO
 - I tried to reproduce the issue when...
-    - [ ] uBlock Origin is the only extension
-    - [ ] uBlock Origin with default lists/settings
+    - [ ] uBO is the only extension
+    - [ ] uBO with default lists/settings
     - [ ] using a new, unmodified browser profile
-- [ ] I am running the latest version of uBlock Origin
+    - [ ] using a new, unmodified browser profile
 - [ ] I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
 
 ### Description
