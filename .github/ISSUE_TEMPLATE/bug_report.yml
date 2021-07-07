@@ -12,7 +12,7 @@ body:
   - type: checkboxes
     id: filter-issue-checkbox
     attributes:
-      label: 
+      label: ""
       options:
         - label: I verified that this is not a filter issue
           required: true
@@ -28,7 +28,7 @@ body:
   - type: checkboxes
     id: support-checkboxes
     attributes:
-      label: 
+      label: ""
       options:
         - label: This is not a [support issue or a question](https://old.reddit.com/r/uBlockOrigin/)
           required: true
@@ -40,7 +40,7 @@ body:
   - type: checkboxes
     id: support-checkboxes-unmodified
     attributes:
-      label: 
+      label: ""
       description: I tried to reproduce the issue when...
       options:
         - label: uBO is the only extension
@@ -53,7 +53,7 @@ body:
   - type: checkboxes
     id: checked-documentation-checkbox
     attributes:
-      label:
+      label: ""
       options:
         - label: I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
           required: true
