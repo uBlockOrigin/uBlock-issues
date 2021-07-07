@@ -2,6 +2,7 @@ name: Bug Report
 description: File a bug report
 body:
   - type: markdown
+    id: prerequisites-text
     attributes:
       value: |
         ## Prerequisites
@@ -10,12 +11,14 @@ body:
         Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed
 
   - type: checkboxes
+    id: filter-issue-checkbox
     attributes:
       options:
         - label: I verified that this is not a filter issue
           required: true
 
   - type: markdown
+    id: filter-issue-description
     attributes:
       value: |
         Filter issues MUST be reported at [filter issue tracker](https://github.com/uBlockOrigin/uAssets/issues)
@@ -23,6 +26,7 @@ body:
         See [what the logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
             
   - type: checkboxes
+    id: support-checkboxes
     attributes:
       options:
         - label: This is not a [support issue or a question](https://old.reddit.com/r/uBlockOrigin/)
@@ -33,6 +37,7 @@ body:
           required: true
     
   - type: checkboxes
+    id: support-checkboxes-unmodified
     attributes:
       description: I tried to reproduce the issue when...
       options:
@@ -44,6 +49,7 @@ body:
           required: true
 
   - type: checkboxes
+      id: checked-documentation-checkbox
     attributes:
       options:
         - label: I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
