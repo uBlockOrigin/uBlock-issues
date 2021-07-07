@@ -10,8 +10,6 @@ body:
         
   - type: checkboxes
     attributes:
-      label: I verified that this is not a filter issue
-      description: You may select more than one.
       options:
         - label: I verified that this is not a filter issue
           required: true
