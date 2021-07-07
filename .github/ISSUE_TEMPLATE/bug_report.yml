@@ -10,15 +10,13 @@ body:
         Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed
 
   - type: checkboxes
-    id: filter-issue-checkbox
     attributes:
-      label: ""
+      description: 
       options:
         - label: I verified that this is not a filter issue
           required: true
 
   - type: markdown
-    id: filter-issue-description
     attributes: 
       value: |
         Filter issues MUST be reported at [filter issue tracker](https://github.com/uBlockOrigin/uAssets/issues)
@@ -26,9 +24,8 @@ body:
         See [what the logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
             
   - type: checkboxes
-    id: support-checkboxes
     attributes:
-      label: ""
+      label: 
       options:
         - label: This is not a [support issue or a question](https://old.reddit.com/r/uBlockOrigin/)
           required: true
@@ -36,26 +33,18 @@ body:
           required: true
         - label: The issue is not present after wholly disabling uBlock Origin (\"uBO\") in the browser
           required: true
+        - label: I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
+          required: true
     
   - type: checkboxes
-    id: support-checkboxes-unmodified
     attributes:
-      label: ""
-      description: I tried to reproduce the issue when...
+      label: I tried to reproduce the issue when...
       options:
         - label: uBO is the only extension
           required: true
         - label: uBO with default lists/settings
           required: true
         - label: using a new, unmodified browser profile
-          required: true
-
-  - type: checkboxes
-    id: checked-documentation-checkbox
-    attributes:
-      label: ""
-      options:
-        - label: I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
           required: true
 
   - type: textarea
