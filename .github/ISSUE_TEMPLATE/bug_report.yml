@@ -29,7 +29,7 @@ body:
           required: true
         - label: I performed a [cursory search of the issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues) to avoid opening a duplicate issue
           required: true
-        - label: The issue is not present after wholly disabling uBlock Origin ("uBO") in the browser
+        - label: The issue is not present after wholly disabling uBlock Origin (\"uBO\") in the browser
           required: true
     
   - type: checkboxes
