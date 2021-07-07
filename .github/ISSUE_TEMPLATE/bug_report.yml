@@ -1,16 +1,19 @@
 name: Bug Report
 description: File a bug report
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data + analysis supporting the claim
+        Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed
   - type: checkboxes
     attributes:
       label: Prerequisites
       description: |
-        To rule out invalid issues, confirm and check each one of the checkboxes. Not doing so may result in the issue being closed as invalid with no further comment
-        Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data + analysis supporting the claim
-        Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed
-
+        To rule out invalid issues, confirm and check each one of the checkboxes.
         If [disabling uBO](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) makes the issue go away, then in all likelihood this is a filter issue.
         See [what the logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
+        If the issue is still present after wholly disabling uBO in the browser, then the issue is unrelated to uBO
       options:
         - label: I verified that this is not a filter issue (MUST be reported at [filter issue tracker](https://github.com/uBlockOrigin/uAssets/issues))
           required: true
