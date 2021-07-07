@@ -15,7 +15,7 @@ body:
       options:
         - label: I verified that this is not a filter issue
           required: true
-        - label: I verified that this is not a filter issue
+        - label: This is not a support issue or a question
           required: true
         - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue
           required: true
