@@ -49,7 +49,7 @@ body:
           required: true
 
   - type: checkboxes
-      id: checked-documentation-checkbox
+    id: checked-documentation-checkbox
     attributes:
       options:
         - label: I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
