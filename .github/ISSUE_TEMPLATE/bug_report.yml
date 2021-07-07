@@ -8,27 +8,27 @@ body:
         Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data + analysis supporting the claim
         Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed
         
-- type: checkboxes
-  attributes:
-    label: I verified that this is not a filter issue
-    description: You may select more than one.
-    options:
-      - label: I verified that this is not a filter issue
-        required: true
-      - label: I verified that this is not a filter issue
-        required: true
-      - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue
-        required: true
-      - label: The issue is not present after wholly disabling uBlock Origin ("uBO") in the browser
-        required: true
-      - label: I tried to reproduce the issue when uBO is the only extension
-        required: true
-      - label: I tried to reproduce the issue in uBO with default lists/settings
-        required: true
-      - label: I tried to reproduce the issue using a new, unmodified browser profile
-        required: true
-      - label: I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
-        required: true
+  - type: checkboxes
+    attributes:
+      label: I verified that this is not a filter issue
+      description: You may select more than one.
+      options:
+        - label: I verified that this is not a filter issue
+          required: true
+        - label: I verified that this is not a filter issue
+          required: true
+        - label: I performed a cursory search of the issue tracker to avoid opening a duplicate issue
+          required: true
+        - label: The issue is not present after wholly disabling uBlock Origin ("uBO") in the browser
+          required: true
+        - label: I tried to reproduce the issue when uBO is the only extension
+          required: true
+        - label: I tried to reproduce the issue in uBO with default lists/settings
+          required: true
+        - label: I tried to reproduce the issue using a new, unmodified browser profile
+          required: true
+        - label: I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
+          required: true
 
   - type: textarea
     attributes:
