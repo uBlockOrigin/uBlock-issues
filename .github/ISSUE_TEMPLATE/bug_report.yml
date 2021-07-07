@@ -19,8 +19,7 @@ body:
 
   - type: markdown
     id: filter-issue-description
-    attributes:
-      label: 
+    attributes: 
       value: |
         Filter issues MUST be reported at [filter issue tracker](https://github.com/uBlockOrigin/uAssets/issues)
         If [disabling uBO](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) makes the issue go away, then in all likelihood this is a filter issue.
