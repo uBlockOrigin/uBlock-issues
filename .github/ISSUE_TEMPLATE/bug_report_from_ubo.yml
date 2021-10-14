@@ -1,5 +1,6 @@
 name: Bug Report From Support Pane
-description: File a bug report
+description: |
+  File a bug report from within uBO's "Support" pane
 body:
   - type: markdown
     attributes:
