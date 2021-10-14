@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug Report From Support Pane
 description: File a bug report
 body:
   - type: markdown
