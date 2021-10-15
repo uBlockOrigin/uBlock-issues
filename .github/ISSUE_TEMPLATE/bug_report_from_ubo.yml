@@ -1,6 +1,6 @@
 name: Bug Report From Support Pane
 description: |
-  File a bug report from within uBO's "Support" pane
+  File a bug report from within uBO's "Support" pane, which autofills key information.
 body:
   - type: markdown
     attributes:
@@ -16,7 +16,7 @@ body:
         See [what the logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
         If the issue is still present after wholly disabling uBO in the browser, then the issue is unrelated to uBO.
       options:
-        - label: I performed a [cursory search of the issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues) to avoid opening a duplicate issue
+        - label: I performed a [cursory search of the issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue) to avoid opening a duplicate issue
           required: true
         - label: The issue is not present after wholly disabling uBlock Origin ("uBO") in the browser
           required: true

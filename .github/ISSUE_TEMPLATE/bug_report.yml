@@ -19,7 +19,7 @@ body:
           required: true
         - label: This is not a [support issue or a question](https://old.reddit.com/r/uBlockOrigin/)
           required: true
-        - label: I performed a [cursory search of the issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues) to avoid opening a duplicate issue
+        - label: I performed a [cursory search of the issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue) to avoid opening a duplicate issue
           required: true
         - label: The issue is not present after wholly disabling uBlock Origin ("uBO") in the browser
           required: true
