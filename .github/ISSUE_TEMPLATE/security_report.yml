@@ -1,6 +1,12 @@
 name: Security issue disclosure
 description: Disclose a serious security issue through private email
 body:
+  - type: checkboxes
+    attributes:
+      label: Confirmation
+      options:
+        - label: I confirm I have identified and will report through private email a serious security issue
+          required: true
   - type: markdown
     attributes:
       value: |
