@@ -13,3 +13,5 @@ body:
         Typically all issues should be public, except in cases where disclosure of a serious security could be used by malicious actors to immediately craft exploits in the wild:
         
         **Email:** ubo-security [at-sign] raymondhill.net
+        
+        You do not have to actually submit the issue -- the purpose of this template is just to let you know the actual email at which you can send a report.
