@@ -1,0 +1,8 @@
+name: Security issue disclosure
+description: Disclose a serious security issue through private email
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Typically all issues should be public, except in cases where disclosure of a serious security could be used by malicious actors to immediately craft exploits in the wild:
+        **Email:** ubo-security [at-sign] raymondhill.net
