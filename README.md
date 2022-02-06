@@ -10,6 +10,8 @@ This is the official community-maintained [issue tracker for uBlock Origin](http
 
 **Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit.com/r/uBlockOrigin/).**
 
+uBlock-issues is also used for the draft version of the wiki.
+
 # uBO-dev-builds
 
 You can help with the development of uBlock Origin by using the development build, in order to report new issues or regression bugs before stable releases of uBlock Origin are published.
