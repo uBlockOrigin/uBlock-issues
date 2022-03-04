@@ -1,14 +1,21 @@
 # uBlock-issues
 
-This is the official community-maintained [issue tracker for uBlock Origin](https://github.com/uBlockOrigin/uBlock-issues/issues). **Do not post any filter list issues or issues where website's functionality is broken.** We have [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues) for that, post there instead. 
+This is the official community-maintained [issue tracker for uBlock Origin](https://github.com/uBlockOrigin/uBlock-issues/issues). 
 
-**Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data from [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/evaluate-performance/reference/) + fully substantiated analysis supporting the claim.**
+#### Filter lists issue
+Do not post any filter list issues or issues where website's functionality is broken. We have [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues) for that, post there instead. 
 
-**Issues specific to uBlock-legacy variant should be filed at https://github.com/gorhill/uBlock-for-firefox-legacy/issues**
+#### Performance issues 
+Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data from [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/evaluate-performance/reference/) + fully substantiated analysis supporting the claim.
 
-**Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed.**
+#### uBO-Legacy
+Issues specific to uBlock-legacy variant should be filed at https://github.com/gorhill/uBlock-for-firefox-legacy/issues
 
-**Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit.com/r/uBlockOrigin/).**
+#### Filter-lists request
+Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed.
+
+#### Support forum
+Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit.com/r/uBlockOrigin/).
 
 # uBO-dev-builds
 
