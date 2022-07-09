@@ -1,33 +1,36 @@
-# uBlock-issues
+# uBlock Origin (uBO) Issues
 
-This is the official community-maintained [issue tracker for uBlock Origin](https://github.com/uBlockOrigin/uBlock-issues/issues). 
+Here is the official community-maintained [issue tracker for uBO](https://github.com/uBlockOrigin/uBlock-issues/issues).
 
-#### Filter lists issue
-Do not post any filter list issues or issues where website's functionality is broken. We have [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues) for that, post there instead. 
+#### Filter list issues
+Report any issues with filter lists or broken website functionality in the [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues).
 
-#### Performance issues 
+#### Performance issues
 Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data from [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/evaluate-performance/reference/) + fully substantiated analysis supporting the claim.
 
-#### uBO-Legacy
-Issues specific to uBlock-legacy variant should be filed at https://github.com/gorhill/uBlock-for-firefox-legacy/issues
+#### WebRTC issues
+Do not open any issues about WebRTC. uBO is not a VPN/proxy tool. Report WebRTC issues about VPN/proxy tools to the software provider.
 
-#### Filter-lists request
-Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed.
+#### uBO Legacy
+Report issues specific to the uBlock legacy variant at https://github.com/gorhill/uBlock-for-firefox-legacy/issues.
+
+#### Filter list requests
+No new filter list requests are permitted. Such issues will be declined and closed.
 
 #### Support forum
-Support issues and questions are handled at [/r/uBlockOrigin](https://old.reddit.com/r/uBlockOrigin/).
+For any support, questions or help, visit [/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/).
 
-# uBO-dev-builds
+# uBO dev builds
 
-You can help with the development of uBlock Origin by using the development build, in order to report new issues or regression bugs before stable releases of uBlock Origin are published.
+You can help with the development of uBO by using the development build to report new issues or regression bugs before stable releases of uBO are published.
 
 Development builds:
 - **Chromium**: install from <https://chrome.google.com/webstore/detail/ublock-origin-development/cgbcahbpdhpcegmbfconppldiemgcoii>
 - **Firefox**: click the most recent `uBlock0_[version].firefox.signed.xpi` file from <https://github.com/gorhill/uBlock/releases>
 - **Thunderbird**: download the `uBlock0_[version].thunderbird.xpi` package from <https://github.com/gorhill/uBlock/releases>, then drag-n-drop it into Thunderbird's Add-ons Manager pane (Thunderbird 65+ required)
 
-If you install a development build once, it will be automatically updated with a more recent development build version when a new one is published.
+Once you install a development build, it will automatically update when a new version is published.
 
 # Chromium/Chrome 49 users
 
-Minimum version for Chromium/Chrome was bumped to v55, hence no longer compatible for this browser version. Users who would still like to install uBO can download v1.16.18 (last working version) from the [releases](https://github.com/gorhill/uBlock/releases/tag/1.16.18) section of uBO repository and install it by unpacking and loading it via Developer Mode.
+Chromium/Chrome 55 is now the minimum version, hence no longer compatible with this browser version. Users who would still like to install uBO can download 1.16.18 (the last working version) from the [releases](https://github.com/gorhill/uBlock/releases/tag/1.16.18) section of the uBO repository and install it by unpacking and loading it via Developer Mode.
