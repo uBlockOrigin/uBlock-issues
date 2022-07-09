@@ -30,7 +30,3 @@ Development builds:
 - **Thunderbird**: download the `uBlock0_[version].thunderbird.xpi` package from <https://github.com/gorhill/uBlock/releases>, then drag-n-drop it into Thunderbird's Add-ons Manager pane (Thunderbird 65+ required)
 
 Once you install a development build, it will automatically update when a new version is published.
-
-# Chromium/Chrome 49 users
-
-Chromium/Chrome 55 is now the minimum version, hence no longer compatible with this browser version. Users who would still like to install uBO can download 1.16.18 (the last working version) from the [releases](https://github.com/gorhill/uBlock/releases/tag/1.16.18) section of the uBO repository and install it by unpacking and loading it via Developer Mode.
