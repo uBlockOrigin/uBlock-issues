@@ -9,7 +9,7 @@ Report any issues with filter lists or broken website functionality in the [uAss
 Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data from [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/evaluate-performance/reference/) + fully substantiated analysis supporting the claim.
 
 #### WebRTC issues
-Do not open any issues about WebRTC. uBO is not a VPN/proxy tool. Report WebRTC issues about VPN/proxy tools to the software provider.
+Do not open any issues about WebRTC leaking local IP addresses. Supported modern browsers do not cause undue local IP address leaks through WebRTC, and uBO is not a VPN/proxy tool. If you are experiencing such an issue, report it to the browser or VPN/proxy tools software provider or, if needed, both.
 
 #### uBO Legacy
 Report issues specific to the uBlock legacy variant at https://github.com/gorhill/uBlock-for-firefox-legacy/issues.
