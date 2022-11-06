@@ -14,6 +14,9 @@ Do not open any issues about WebRTC leaking local IP addresses. Supported modern
 #### uBO Legacy
 Report issues specific to the uBlock legacy variant at https://github.com/gorhill/uBlock-for-firefox-legacy/issues.
 
+#### uBO Lite
+Report issues specific to the Chromium Manifest Version 3 variant at https://github.com/uBlockOrigin/uBOL-issues/issues.
+
 #### Filter list requests
 No new filter list requests are permitted. Such issues will be declined and closed.
 
