@@ -1,17 +1,18 @@
 name: Security Vulnerability Disclosure
-description: Disclose a significant security vulnerability through private email.
+description: Disclose a significant security vulnerability through a private email.
 body:
   - type: checkboxes
     attributes:
       label: Confirmation
       options:
-        - label: I confirm that I have identified a serious security vulnerability and will report it through private email.
+        - label: I confirm that I have identified a significant security vulnerability and will report it through a private email.
           required: true
+
   - type: markdown
     attributes:
       value: |
-        Typically, all issues are public, except in cases where disclosure of a serious security vulnerability could lead to malicious actors crafting exploits in the wild.
+        All issues are usually public except in cases where disclosure of a significant security vulnerability could lead to malicious actors crafting exploits in the wild.
 
         **Email:** ubo-security [at-sign] raymondhill.net
 
-        You do not have to click the _"Submit new issue"_ button. This template exists to let you know the actual email address to send a report.
+        You do not need to click the _"Submit new issue"_ button. This template is just to let you know the actual email address for where to send the report.
