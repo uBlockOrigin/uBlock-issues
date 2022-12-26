@@ -3,24 +3,31 @@
 This repository is the official community-maintained issue tracker for [uBO](https://github.com/gorhill/uBlock).
 
 #### Support Forum
+
 For support, questions, or help, visit [/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/).
 
 #### Filter List Issues
+
 Report any issues with filter lists or broken website functionality in the [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues).
 
 #### Filter List Requests
+
 New filter list requests are not permitted and will be declined and closed.
 
-#### uBO Lite (uBOL)
+#### uBO Lite (uBOL) Issues
+
 Report issues specific to the Chromium Manifest Version 3 (MV3) variant in the [uBOL issue tracker](https://github.com/uBlockOrigin/uBOL-issues/issues).
 
-#### uBO Legacy
+#### uBO Legacy Issues
+
 Report issues specific to the legacy variant in the [uBO Legacy issue tracker](https://github.com/gorhill/uBlock-for-firefox-legacy/issues).
 
 #### Performance Issues
+
 Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data from the [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/evaluate-performance/reference/) and a fully substantiated analysis supporting the claim.
 
 #### WebRTC Issues
+
 Do not open any issues about WebRTC leaking local IP addresses. Supported modern browsers do not cause undue local IP address leaks through WebRTC, and uBO is not a VPN/proxy tool. If you are experiencing such an issue, report it to the browser or VPN/proxy tools software provider or, if needed, both.
 
 # uBO Development Builds
