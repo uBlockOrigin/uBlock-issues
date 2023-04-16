@@ -8,31 +8,27 @@ For support, questions, or help, visit [/r/uBlockOrigin](https://www.reddit.com/
 
 #### Filter List Issues
 
-Report any issues with filter lists or broken website functionality in the [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues).
+Report issues with filter lists or broken website functionality in the [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues).
+
+#### uBO Lite (uBOL) Issues
+
+Report issues specific to the Manifest Version 3 (MV3) variant in the [uBOL issue tracker](https://github.com/uBlockOrigin/uBOL-issues/issues).
+
+#### Performance Issues
+
+Speculated performance issues are marked as invalid and closed if they do not come with actual profiling data from the [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/evaluate-performance/reference/) and a fully substantiated analysis supporting the claim.
+
+#### WebRTC Issues
+
+Do not open issues about WebRTC leaking local IP addresses. Supported modern browsers do not cause undue local IP address leaks through WebRTC. uBO is not a VPN/proxy tool. If you are experiencing such an issue, report it to the browser or VPN/proxy tools software provider or, if needed, both.
 
 #### Filter List Requests
 
 New filter list requests are not permitted and will be declined and closed.
 
-#### uBO Lite (uBOL) Issues
-
-Report issues specific to the Chromium Manifest Version 3 (MV3) variant in the [uBOL issue tracker](https://github.com/uBlockOrigin/uBOL-issues/issues).
-
-#### uBO Legacy Issues
-
-Report issues specific to the legacy variant in the [uBO Legacy issue tracker](https://github.com/gorhill/uBlock-for-firefox-legacy/issues).
-
-#### Performance Issues
-
-Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data from the [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/evaluate-performance/reference/) and a fully substantiated analysis supporting the claim.
-
-#### WebRTC Issues
-
-Do not open any issues about WebRTC leaking local IP addresses. Supported modern browsers do not cause undue local IP address leaks through WebRTC, and uBO is not a VPN/proxy tool. If you are experiencing such an issue, report it to the browser or VPN/proxy tools software provider or, if needed, both.
-
 # uBO Development Builds
 
-You can use the development build to help report new issues and regressions before the stable release is published.
+Use the development builds to help report issues and regressions before the next stable release.
 
 Once you install a development build, it will automatically update when a new version is published.
 
