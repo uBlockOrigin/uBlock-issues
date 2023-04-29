@@ -16,7 +16,7 @@ Report issues specific to the Manifest Version 3 (MV3) variant in the [uBOL issu
 
 #### Performance Issues
 
-Speculated performance issues are marked as invalid and closed if they do not come with actual profiling data from the [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/evaluate-performance/reference/) and a fully substantiated analysis supporting the claim.
+Speculated performance issues are marked as invalid and closed if they do not come with actual profiling data from the [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/performance/reference/) and a fully substantiated analysis supporting the claim.
 
 #### WebRTC Issues
 
@@ -36,4 +36,4 @@ Once you install a development build, it will automatically update when a new ve
 
 - **Firefox**: Click the most recent `uBlock0_[version].firefox.signed.xpi` file from the [uBO Releases page](https://github.com/gorhill/uBlock/releases).
 
-- **Thunderbird**: Download the most recent `uBlock0_[version].thunderbird.xpi` file from the [uBO Releases page](https://github.com/gorhill/uBlock/releases), then drag-n-drop it into Thunderbird's Add-ons Manager pane (Thunderbird 65+ required).
+- **Thunderbird**: Download the most recent `uBlock0_[version].thunderbird.xpi` file from the [uBO Releases page](https://github.com/gorhill/uBlock/releases), then drag-n-drop it into Thunderbird's Add-ons Manager pane (Thunderbird 91+ required).
