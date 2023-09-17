@@ -16,6 +16,8 @@ body:
         See what [the logger](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
         If the issue is still present after disabling uBlock Origin (uBO) in the browser, it is unrelated to uBO.
       options:
+        - label: I verified that this is not a filter list issue. Report any issues with filter lists or broken website functionality in the [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues).
+          required: true
         - label: I performed a [cursory search of the issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue) to avoid opening a duplicate issue.
           required: true
         - label: The issue is not present after disabling uBO in the browser.
@@ -66,6 +68,7 @@ body:
       required: true
 
   - type: textarea
+    id: configuration
     attributes:
       label: Actual behavior
       description: What happened?
