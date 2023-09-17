@@ -68,7 +68,6 @@ body:
       required: true
 
   - type: textarea
-    id: configuration
     attributes:
       label: Actual behavior
       description: What happened?
@@ -76,6 +75,7 @@ body:
       required: true
 
   - type: textarea
+    id: configuration
     attributes:
       label: Configuration
       description: |
