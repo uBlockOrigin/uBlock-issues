@@ -17,6 +17,8 @@ body:
       options:
         - label: I verified that this is not a filter list issue. Report any issues with filter lists or broken website functionality in the [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues).
           required: true
+        - label: This is NOT an issue with [YouTube](https://www.github.com/uBlockOrigin/uAssets/issues/19976), [Facebook](https://www.github.com/uBlockOrigin/uAssets/issues/3367) or [Twitch](https://www.github.com/uBlockOrigin/uAssets/issues/5184).
+          required: true
         - label: This is not a support issue or a question. For support, questions, or help, visit [/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/).
           required: true
         - label: I performed a [cursory search of the issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue) to avoid opening a duplicate issue.
