@@ -11,6 +11,7 @@ body:
       label: Prerequisites
       description: |
         To rule out invalid issues, confirm and check each one of the checkboxes.
+        If you are unable to determine whether it's a filter list issue, do not open an issue here, first seek help on support forums.
         If [disabling uBO](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) makes the issue go away, then it is a filter issue.
         See what [the logger](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
         If the issue is still present after disabling uBlock Origin (uBO) in the browser, it is unrelated to uBO.
