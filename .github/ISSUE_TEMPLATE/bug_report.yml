@@ -1,5 +1,5 @@
 name: Bug Report
-description: 'File a bug report with the extension itself. Do NOT report issues with websites (such as: ads, adblock detection or broken functionality) in this reporitory.'
+description: 'File a bug report with the extension itself. Do NOT report issues with websites (such as: ads, adblock detection or broken functionality) in this repository.'
 body:
   - type: markdown
     attributes:
