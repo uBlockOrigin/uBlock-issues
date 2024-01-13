@@ -45,7 +45,7 @@ body:
   - type: textarea
     attributes:
       label: A specific URL where the issue occurs.
-      description: An exact URL is MANDATORY for an issue affecting a web page, even if it happens "everywhere."
+      description: "An exact URL is MANDATORY for an issue affecting a web page, even if it happens \"everywhere\"."
       render: yaml
     validations:
       required: true
@@ -53,8 +53,7 @@ body:
   - type: textarea
     attributes:
       label: Steps to Reproduce
-      description: |
-        Provide as much detail as possible. We must be able to reproduce to investigate.
+      description: Provide as much detail as possible. We must be able to reproduce to investigate.
       placeholder: |
         1. [First Step]
         2. [Second Step]
