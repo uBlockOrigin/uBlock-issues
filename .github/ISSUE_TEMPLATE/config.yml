@@ -3,7 +3,7 @@ contact_links:
   - name: Support Forum
     url: https://www.reddit.com/r/uBlockOrigin/
     about: For support, questions, or help, visit /r/uBlockOrigin.
-  - name: Filter List Issues
+  - name: Filter List Issues / Website Problems
     url: https://github.com/uBlockOrigin/uAssets/issues
     about: Report issues with filter lists or broken website functionality in the uAssets issue tracker.
   - name: uBO Lite (uBOL) Issues
