@@ -1,5 +1,5 @@
 name: Support Pane Bug Report
-description: "DO NOT MANUALLY SELECT THIS TEMPLATE. It's used by uBlock Origin (uBO)'s \"Support\" pane to auto-fill essential information to file a bug report for the exention itself."
+description: "DO NOT MANUALLY SELECT THIS TEMPLATE. It's used by uBlock Origin (uBO)'s \"Support\" pane to auto-fill essential information to file a bug report for the extension itself."
 body:
   - type: markdown
     attributes:
