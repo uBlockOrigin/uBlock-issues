@@ -4,20 +4,21 @@ body:
   - type: markdown
     attributes:
       value: |
-        Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data from the [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/evaluate-performance/reference/) and a fully substantiated analysis supporting the claim.
+        Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data from the [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/performance/reference) and a fully substantiated analysis supporting the claim.
         New filter list requests are not permitted and will be declined and closed.
+
   - type: checkboxes
     attributes:
       label: Prerequisites
       description: |
         To rule out invalid issues, confirm and check each one of the checkboxes.
         If [disabling uBO](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) makes the issue go away, then it is a filter issue.
-        See what [the logger](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
+        See what [the logger](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue; this will help you determine whether this is a filter issue.
         If the issue is still present after disabling uBlock Origin (uBO) in the browser, it is unrelated to uBO.
       options:
         - label: I verified that this is not a filter list issue. Report any issues with filter lists or broken website functionality in the [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues).
           required: true
-        - label: This is **NOT** a [_YouTube_](https://www.github.com/uBlockOrigin/uAssets/issues/20586), [_Facebook_](https://www.github.com/uBlockOrigin/uAssets/issues/3367) or [_Twitch_](https://www.github.com/uBlockOrigin/uAssets/issues/5184) report. _These sites MUST be reported by clicking their **respective links**_.
+        - label: This is **NOT** a [_YouTube_](https://github.com/uBlockOrigin/uAssets/issues/20586), [_Facebook_](https://github.com/uBlockOrigin/uAssets/issues/3367) or [_Twitch_](https://github.com/uBlockOrigin/uAssets/issues/5184) report. _These sites MUST be reported by clicking their **respective links**_.
           required: true
         - label: I performed a [cursory search of the issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue) to avoid opening a duplicate issue.
           required: true
@@ -32,7 +33,7 @@ body:
       options:
         - label: uBO is the only extension.
           required: true
-        - label: using a new, unmodified browser profile.
+        - label: Using a new, unmodified browser profile.
           required: true
 
   - type: textarea
