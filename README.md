@@ -27,5 +27,5 @@ New filter list requests are not permitted and will be declined and closed.
 Use the development builds to report issues and regressions before the next stable release. Once installed, development builds will automatically update to the latest version.
 
 - **Chromium**: Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/ublock-origin-development/cgbcahbpdhpcegmbfconppldiemgcoii).
-- **Firefox**: Download the most recent `uBlock0_[version].firefox.signed.xpi` file from the [uBO Releases page](https://github.com/gorhill/uBlock/releases).
+- **Firefox**: Download the latest `uBlock0_[version].firefox.signed.xpi` file from the [uBO Releases page](https://github.com/gorhill/uBlock/releases).
 - **Thunderbird**: Download the latest `uBlock0_[version].thunderbird.xpi` from the [uBO Releases page](https://github.com/gorhill/uBlock/releases) and drag-and-drop it into Thunderbird's Add-ons Manager pane (Thunderbird 91+ required).
