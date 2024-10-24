@@ -1,39 +1,31 @@
 # uBlock Origin (uBO) Issues
 
-This repository is the official community-maintained issue tracker for [uBO](https://github.com/gorhill/uBlock).
+Welcome to the official community-maintained issue tracker for [uBlock Origin (uBO)](https://github.com/gorhill/uBlock).
 
-#### Support Forum
-
+## Support Forum
 For support, questions, or help, visit [/r/uBlockOrigin](https://www.reddit.com/r/uBlockOrigin/).
 
-#### Filter List Issues
+## Filter List Issues
+If you encounter issues with filter lists or broken website functionality, please report them in the [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues).
 
-Report issues with filter lists or broken website functionality in the [uAssets issue tracker](https://github.com/uBlockOrigin/uAssets/issues).
+## uBO Lite (uBOL) Issues
+For issues specific to the Manifest Version 3 (MV3) variant, use the [uBOL issue tracker](https://github.com/uBlockOrigin/uBOL-home/issues).
 
-#### uBO Lite (uBOL) Issues
+## Performance Issues
+Performance issues without actual profiling data from the [Firefox Profiler](https://profiler.firefox.com/) or [Chromium Profiler](https://developer.chrome.com/docs/devtools/performance/reference/) will be marked as invalid and closed. Please provide a fully substantiated analysis to support your claims.
 
-Report issues specific to the Manifest Version 3 (MV3) variant in the [uBOL issue tracker](https://github.com/uBlockOrigin/uBOL-issues/issues).
+## WebRTC Issues
+Do not open issues regarding WebRTC leaking local IP addresses. Supported modern browsers do not leak local IPs through WebRTC. uBO is not a VPN/proxy tool. If you experience such issues, report them to your browser or VPN/proxy software provider.
 
-#### Performance Issues
-
-Speculated performance issues are marked as invalid and closed if they do not come with actual profiling data from the [Firefox Profiler](https://profiler.firefox.com/)/[Chromium Profiler](https://developer.chrome.com/docs/devtools/performance/reference/) and a fully substantiated analysis supporting the claim.
-
-#### WebRTC Issues
-
-Do not open issues about WebRTC leaking local IP addresses. Supported modern browsers do not cause undue local IP address leaks through WebRTC. uBO is not a VPN/proxy tool. If you are experiencing such an issue, report it to the browser or VPN/proxy tools software provider or, if needed, both.
-
-#### Filter List Requests
-
+## Filter List Requests
 New filter list requests are not permitted and will be declined and closed.
+
+---
 
 # uBO Development Builds
 
-Use the development builds to help report issues and regressions before the next stable release.
+Use the development builds to report issues and regressions before the next stable release. Once installed, development builds will automatically update to the latest version.
 
-Once you install a development build, it will automatically update when a new version is published.
-
-- **Chromium**: Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/ublock-origin-development/cgbcahbpdhpcegmbfconppldiemgcoii).
-
-- **Firefox**: Click the most recent `uBlock0_[version].firefox.signed.xpi` file from the [uBO Releases page](https://github.com/gorhill/uBlock/releases).
-
-- **Thunderbird**: Download the most recent `uBlock0_[version].thunderbird.xpi` file from the [uBO Releases page](https://github.com/gorhill/uBlock/releases), then drag-n-drop it into Thunderbird's Add-ons Manager pane (Thunderbird 91+ required).
+- **Chromium**: Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/ublock-origin-development/cgbcahbpdhpcegmbfconppldiemgcoii).
+- **Firefox**: Download the most recent `uBlock0_[version].firefox.signed.xpi` file from the [uBO Releases page](https://github.com/gorhill/uBlock/releases).
+- **Thunderbird**: Download the latest `uBlock0_[version].thunderbird.xpi` from the [uBO Releases page](https://github.com/gorhill/uBlock/releases) and drag-and-drop it into Thunderbird's Add-ons Manager pane (Thunderbird 91+ required).
