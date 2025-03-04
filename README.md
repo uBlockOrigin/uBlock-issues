@@ -1,6 +1,6 @@
 ### Important information
 
-[About Google Chrome's "This extension may soon no longer be supported"](https://github.com/uBlockOrigin/uBlock-issues/wiki/About-Google-Chrome's-%22This-extension-may-soon-no-longer-be-supported%22) 
+[Google Chrome's "This extension is no longer supported"](https://github.com/uBlockOrigin/uBlock-issues/issues/3563)
 
 # uBlock Origin (uBO) Issues
 
