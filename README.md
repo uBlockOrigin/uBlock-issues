@@ -1,3 +1,7 @@
+### Important information
+
+[About Google Chrome's "This extension may soon no longer be supported"](https://github.com/uBlockOrigin/uBlock-issues/wiki/About-Google-Chrome's-%22This-extension-may-soon-no-longer-be-supported%22) 
+
 # uBlock Origin (uBO) Issues
 
 This repository is the official community-maintained issue tracker for [uBO](https://github.com/gorhill/uBlock).
