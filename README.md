@@ -40,7 +40,7 @@ Use the development builds to help report issues and regressions before the next
 
 Once you install a development build, it will automatically update when a new version is published.
 
-- **Chromium**: Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/ublock-origin-development/cgbcahbpdhpcegmbfconppldiemgcoii).
+- **Chromium**: Click the most recent `uBlock0_[version].chromium.crx` file from the [uBO Releases page](https://github.com/gorhill/uBlock/releases).
 
 - **Firefox**: Click the most recent `uBlock0_[version].firefox.signed.xpi` file from the [uBO Releases page](https://github.com/gorhill/uBlock/releases).
 
