@@ -1,7 +1,3 @@
-### Important information
-
-[Google Chrome's "This extension is no longer supported"](https://github.com/uBlockOrigin/uBlock-issues/issues/3563)
-
 # uBlock Origin (uBO) Issues
 
 This repository is the official community-maintained issue tracker for [uBO](https://github.com/gorhill/uBlock).
